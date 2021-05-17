@@ -1,0 +1,164 @@
+body{
+    height: 650px;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    color: gold;
+    margin-left: 220px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+.nav li{
+    list-style: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+
+.nav li:hover{
+    color: gold;
+}
+
+
+/* main */
+
+main{
+
+}
+
+.main-text{
+    margin-left: 520px;
+    margin-top: 135px;
+}
+
+.main-text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.main-text p{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+/* posts */
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 165px;
+}
+
+.post{
+    width: 300px;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.circle{
+    margin-left: 110px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: 2px gold solid;
+}
+
+.post img{
+    margin-left: 18px;
+    margin-top: 17px;
+}
+
+.post h2{
+    text-align: center;
+}
+
+.post p{
+    color: gray;
+    text-align: center;
+}
+
+/* sc_block */
+
+.second_block{
+    width: 100%;
+    height: 650px;
+    background-color: #222222;
+    margin: 0;
+    margin-top: 125px;
+}
+
+.main-text_sc h2{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.main-text_sc p{
+    text-align: center;
+    color: gray;
+}
+
+/* inputs */
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 230px;
+    margin-top: 46px;
+}
+
+.lft_inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.lft_inputs input{
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+.msg_input{
+    width: 455px;
+    height: 212px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+/* button */
+
+.send_msg{
+    margin-left: 580px;
+    width: 240px;
+    height: 70px;
+    background-color: gold;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
