@@ -1,0 +1,404 @@
+html{
+    height: 1800px;
+}
+body{
+    margin: 0;
+}
+
+header{
+    width: 320px;
+    height: 540px;
+    background-image: url("/images/bg.png");
+    background-color: #cccccc;
+}
+
+.logo{
+    display: none;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+header ul li{   
+    color: white;
+    margin-left: 20px;
+    list-style: none;
+}
+
+header ul li button{
+    color: white;
+    background-color: transparent;
+}
+
+.log{
+    border: 0;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.sign{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 17px;
+}
+
+/* block */
+
+.main-block{
+    margin-top: 120px;
+}
+
+.main-block h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.main-block h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+}
+
+.main-block p{
+    width: 90%;
+    text-align: center;
+    font-size: 21px;
+    margin-left: 5%;
+    color: white;
+}
+
+.main-block button{
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ff4e50;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    margin-top: 20px;
+}
+
+/* main */
+
+.main-logo{
+    text-align: center;
+    margin-top: 70px;
+}
+.block h2{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+.post{
+    padding: 0;
+    margin-top: 30px;
+}
+
+.img-wrapper{
+
+}
+
+.main{
+    margin-left: 100px;
+}
+
+.sec{
+    z-index: 2;
+    margin-left: -40px;
+}
+
+.img-wrapper_red{
+    width: 50px;
+    height: 50px;
+    background-color: #ff4e50;
+}
+
+.post h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.post p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.see{
+    width: 90%;
+    height: 40px;
+    border: 2px #ff4e50 solid;
+    color: #ff4e50;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    html{
+        height: 1500px;
+    }
+    body{
+        margin: 0;
+    }
+    
+    header{
+        width: 768px;
+        height: 700px;
+        background-image: url("/images/bg-tablet.png");
+        background: re;
+        background-color: #cccccc;
+    }
+    
+    .navbar{
+        padding: 0;
+        padding-top: 50px;
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .logo{
+        display: contents;
+        color: white;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-top: -5px;
+        margin-left: 280px;
+    }
+    
+    .nav li{   
+        color: white;
+        margin-left: 20px;
+        list-style: none;
+    }
+    
+    .nav li button{
+        color: white;
+        background-color: transparent;
+    }
+    
+    .log{
+        border: 0;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .sign{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 17px;
+    }
+    
+    /* block */
+    
+    .main-block{
+        margin-top: 120px;
+    }
+    
+    .main-block h3{
+        display: none;
+    }
+    .main-logo{
+        text-align: center;
+        margin-top: 80px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .main-block h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        text-align: center;
+        width: 450px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 160px;
+        color: white;
+    }
+    
+    .main-block p{
+        width: 90%;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 5%;
+        color: white;
+    }
+    
+    .main-block button{
+        width: 240px;
+        margin-left: 5%;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #ff4e50;
+        color: white;
+        font-size: 17px;
+        border: 0;
+        margin-left: 270px;
+        margin-top: 40px;
+    }
+    
+    /* main */
+    
+    .block{
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+
+    .block h2{
+        font-size: 22px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 5px;
+    }
+
+    .post{
+        margin-left: 60px;
+        width: 250px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    
+    .img-wrapper{
+        margin-left: -30px;
+    }
+    
+    .main{
+        margin-left: 100px;
+    }
+    
+    .sec{
+        z-index: 2;
+        margin-left: -40px;
+    }
+    
+    .img-wrapper_red{
+        width: 50px;
+        height: 50px;
+        background-color: #ff4e50;
+    }
+    
+    .post h2{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .post p{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .see{
+        width: 200px;
+        height: 40px;
+        border: 2px #ff4e50 solid;
+        color: #ff4e50;
+        background-color: transparent;
+        border-radius: 30px;
+        margin-left: 288px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html{
+        height: 1300px;
+    }
+    header{
+        height: 700px;
+        width: 1024px;
+        background-image: url("/images/vr.png");
+    }
+
+    .logo{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .navbar{
+        margin-left: 50px;
+    }
+
+    .nav{
+        margin-left: 520px;
+    }
+
+    .main-block{
+        margin-top: 165px;
+        margin-left: 0;
+    }
+
+    .main-block h2{
+        margin-left: 290px;
+    }
+
+    .main-block button{
+        margin-top: 40px;
+        margin-left: 400px;
+        width: 225px;
+    }
+
+    .block{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lft-block{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rg-block{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .post{
+        margin: 0;
+    }
+
+    .post h2{
+        font-size: 20px;
+    }
+    .img-wrapper{
+        margin: 0;
+        width: 160px;
+    }
+
+    .main{
+        margin-left: 70px;
+        width: 120px;
+    }
+
+    .sec{
+        display: none;
+    }
+
+    .see{
+        margin-top: 40px;
+        margin-left: 420px;
+    }
+}
